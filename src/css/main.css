@@ -58,28 +58,55 @@ h1 {
     background-color: black !important;
 }
 
+
 .item-list-container {
-    max-width: 1000px; 
-    margin: 0 auto;
-    
+    max-width: 80vh; 
+    margin: 20px; /* Agrega separación superior e inferior */
+    min-height: calc(100vh - 40px); /* Calcula la altura mínima restando el espacio del margen */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+.producto img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 75%; /* La imagen ocupará todo el alto del contenedor */
+    object-fit: cover; /* La imagen se ajustará para cubrir el contenedor */
+}
+
+
 .background-image {
     background-image: url('../assets/img/fondo3.jpg');
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
-    width: 100%;
-    height: 80%;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .productos-grilla {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
 
+
+
 .producto {
+    display: flex;
+    flex-direction: column;
+    width: auto;
     background-color: rgb(62, 94, 94);
     border-radius: .5rem;
-    padding: 1rem;
+    padding: 2rem;
+    color: white; /* Asegura que el texto sea legible sobre el fondo oscuro */
 }
 
 .grid {
@@ -91,11 +118,33 @@ footer {
     bottom: 0;
     width: 100%;
     height: 3.5rem;
+    background-color: rgb(62, 94, 94);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
 }
-.background-image {
-    background-image: url('../assets/img/fondo3.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 92.5vh;
+
+.detalle-tarjeta {
+    background-color: rgba(62, 94, 94);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    width: 500px; /* Ancho fijo de 500px */
+    height: auto; /* Altura fija de 500px */
+    margin: auto; /* Centra horizontalmente el contenedor */
+    margin-top: 50px; /* Espacio superior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detalle-tarjeta img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: auto; /* La altura de la imagen se ajustará automáticamente */
+    max-height: 400px; /* Altura máxima para la imagen */
+    object-fit: contain; /* La imagen se ajustará para que quepa dentro del contenedor sin distorsionar su relación de aspecto */
+    margin-bottom: 1rem; /* Espacio inferior */
 }

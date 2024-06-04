@@ -23,12 +23,13 @@ export const ItemListContainer = () => {
     
     pedirProductos()
       .then((res) => {
-        if (!categoryId) {
-          setTitulo("Productos");
-          setProductos(res);
-        } else {
+        if (categoryId) {
           setTitulo(categories.find((cat) => cat.id === categoryId).nombre);
           setProductos(res.filter((prod) => prod.categoria.id === categoryId));
+          
+        } else {
+          setTitulo("Productos");
+          setProductos(res);
         }
       })
       
@@ -37,12 +38,12 @@ export const ItemListContainer = () => {
 
   return (
     <>
-    <div className='background-image'>
-    <div className="item-list-container">
+    <section className='background-image'>
+      <div className="item-list-container">
       <h1>{titulo}</h1>
       <ItemList productos={productos} />
     </div>
-    </div>
+    </section>
     </>
   )
 }

@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "nombre": "Camiseta Deportiva",
-        "precio": 19.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Camiseta ligera y transpirable, perfecta para hacer ejercicio.",
+        "nombre": "Blusa Casual",
+        "precio": 56000,
+        "imagen": "/src/assets/img/productos/blusa1.jpeg",
+        "descripcion": "Blusa cómoda y elegante, perfecta para el día a día.",
         "categoria": {
             "id": "ropa",
             "nombre": "Ropa"
@@ -12,21 +12,21 @@
     },
     {
         "id": 2,
-        "nombre": "Zapatillas de Running",
-        "precio": 49.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Zapatillas con amortiguación avanzada para largas distancias.",
+        "nombre": "Botas de Invierno",
+        "precio": 150000,
+        "imagen": "/src/assets/img/productos/botas-invierno1.jpeg",
+        "descripcion": "Botas cálidas y resistentes al agua, ideales para el invierno.",
         "categoria": {
-            "id": "ropa",
-            "nombre": "Ropa"
+            "id": "calzado",
+            "nombre": "Calzado"
         }
     },
     {
         "id": 3,
-        "nombre": "Mochila Escolar",
-        "precio": 24.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Mochila resistente y espaciosa, ideal para el día a día escolar.",
+        "nombre": "Collar de Perlas",
+        "precio": 50000,
+        "imagen": "/src/assets/img/productos/collar-perla1.jpeg",
+        "descripcion": "Collar elegante de perlas, ideal para ocasiones especiales.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -34,65 +34,65 @@
     },
     {
         "id": 4,
-        "nombre": "Auriculares Bluetooth",
-        "precio": 29.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Auriculares inalámbricos con sonido de alta calidad y batería de larga duración.",
-        "categoria": {
-            "id": "tecnologia",
-            "nombre": "Tecnología"
-        }
-    },
-    {
-        "id": 5,
-        "nombre": "Reloj Inteligente",
-        "precio": 79.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Reloj con monitoreo de salud y notificaciones inteligentes.",
-        "categoria": {
-            "id": "tecnologia",
-            "nombre": "Tecnología"
-        }
-    },
-    {
-        "id": 6,
-        "nombre": "Gafas de Sol",
-        "precio": 15.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Gafas con protección UV y diseño moderno.",
+        "nombre": "Pantalones Vaqueros",
+        "precio": 45000,
+        "imagen": "/src/assets/img/productos/jean1.jpeg",
+        "descripcion": "Pantalones vaqueros ajustados, ideales para cualquier ocasión.",
         "categoria": {
             "id": "ropa",
             "nombre": "Ropa"
         }
     },
     {
-        "id": 7,
-        "nombre": "Bolígrafo de Lujo",
-        "precio": 9.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Bolígrafo elegante y duradero, perfecto para regalos.",
+        "id": 5,
+        "nombre": "Zapatos de Tacón",
+        "precio": 135000,
+        "imagen": "/src/assets/img/productos/zapato-tacon1.jpeg",
+        "descripcion": "Zapatos de tacón alto, perfectos para eventos formales.",
+        "categoria": {
+            "id": "calzado",
+            "nombre": "Calzado"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Reloj de Pulsera",
+        "precio": 120000,
+        "imagen": "/src/assets/img/productos/reloj1.jpeg",
+        "descripcion": "Reloj de pulsera elegante con correa metálica.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
         }
     },
     {
-        "id": 8,
-        "nombre": "Cargador Inalámbrico",
-        "precio": 19.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Cargador rápido y eficiente compatible con la mayoría de los dispositivos.",
+        "id": 7,
+        "nombre": "Falda Plisada",
+        "precio": 38000,
+        "imagen": "/src/assets/img/productos/falda-plisada1.jpeg",
+        "descripcion": "Falda plisada de longitud media, ideal para un look elegante.",
         "categoria": {
-            "id": "tecnologia",
-            "nombre": "Tecnología"
+            "id": "ropa",
+            "nombre": "Ropa"
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Bailarinas",
+        "precio": 140000,
+        "imagen": "/src/assets/img/productos/bailarinas-1.jpeg",
+        "descripcion": "Bailarinas cómodas y elegantes, ideales para uso diario.",
+        "categoria": {
+            "id": "calzado",
+            "nombre": "Calzado"
         }
     },
     {
         "id": 9,
-        "nombre": "Termo de Acero Inoxidable",
-        "precio": 14.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Termo de alta calidad que mantiene las bebidas calientes o frías por horas.",
+        "nombre": "Pañuelo de Seda",
+        "precio": 20000,
+        "imagen": "/src/assets/img/productos/panuelo-seda.jpeg",
+        "descripcion": "Pañuelo de seda suave y elegante, ideal para cualquier look.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
@@ -100,10 +100,32 @@
     },
     {
         "id": 10,
-        "nombre": "Libreta de Notas",
-        "precio": 7.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Libreta con cubierta dura y papel de alta calidad.",
+        "nombre": "Chaqueta de Cuero",
+        "precio": 89000,
+        "imagen": "/src/assets/img/productos/chaqueta-cuero.jpeg",
+        "descripcion": "Chaqueta de cuero auténtico, perfecta para un estilo rebelde.",
+        "categoria": {
+            "id": "ropa",
+            "nombre": "Ropa"
+        }
+    },
+    {
+        "id": 11,
+        "nombre": "Botines de Cuero",
+        "precio": 145000,
+        "imagen": "/src/assets/img/productos/botines-cuero.jpeg",
+        "descripcion": "Botines de cuero elegantes, perfectos para el otoño.",
+        "categoria": {
+            "id": "calzado",
+            "nombre": "Calzado"
+        }
+    },
+    {
+        "id": 12,
+        "nombre": "Pulsera de Plata",
+        "precio": 78000,
+        "imagen": "/src/assets/img/productos/pulsera-plata.jpeg",
+        "descripcion": "Pulsera de plata fina con diseño minimalista.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"

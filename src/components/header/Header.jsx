@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { NavBar } from './NavBar'
 import { Carrito } from './Carrito'
 import { Link } from 'react-router-dom'

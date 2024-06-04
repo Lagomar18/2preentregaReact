@@ -4,11 +4,12 @@
         "nombre": "Ropa"
     },
     {
-        "id": "accesorios",
-        "nombre": "Accesorios"
+        "id": "calzado",
+        "nombre": "Calzado"
     },
     {
-        "id": "tecnologia",
-        "nombre": "Tecnología"
+        "id": "accesorios",
+        "nombre": "Accesorios"
     }
+   
 ]
