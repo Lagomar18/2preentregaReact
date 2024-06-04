@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Blusa Casual",
         "precio": 56000,
-        "imagen": "/src/assets/img/productos/blusa1.jpeg",
+        "imagen": "/src/assets/img/productos/blusa.jpeg",
         "descripcion": "Blusa cómoda y elegante, perfecta para el día a día.",
         "categoria": {
             "id": "ropa",
@@ -14,7 +14,7 @@
         "id": 2,
         "nombre": "Botas de Invierno",
         "precio": 150000,
-        "imagen": "/src/assets/img/productos/botas-invierno1.jpeg",
+        "imagen": "/src/assets/img/productos/botas.jpeg",
         "descripcion": "Botas cálidas y resistentes al agua, ideales para el invierno.",
         "categoria": {
             "id": "calzado",
@@ -25,7 +25,7 @@
         "id": 3,
         "nombre": "Collar de Perlas",
         "precio": 50000,
-        "imagen": "/src/assets/img/productos/collar-perla1.jpeg",
+        "imagen": "/src/assets/img/productos/collar.jpeg",
         "descripcion": "Collar elegante de perlas, ideal para ocasiones especiales.",
         "categoria": {
             "id": "accesorios",
@@ -36,7 +36,7 @@
         "id": 4,
         "nombre": "Pantalones Vaqueros",
         "precio": 45000,
-        "imagen": "/src/assets/img/productos/jean1.jpeg",
+        "imagen": "/src/assets/img/productos/jean.jpeg",
         "descripcion": "Pantalones vaqueros ajustados, ideales para cualquier ocasión.",
         "categoria": {
             "id": "ropa",
@@ -47,7 +47,7 @@
         "id": 5,
         "nombre": "Zapatos de Tacón",
         "precio": 135000,
-        "imagen": "/src/assets/img/productos/zapato-tacon1.jpeg",
+        "imagen": "/src/assets/img/productos/zapato.jpeg",
         "descripcion": "Zapatos de tacón alto, perfectos para eventos formales.",
         "categoria": {
             "id": "calzado",
@@ -58,7 +58,7 @@
         "id": 6,
         "nombre": "Reloj de Pulsera",
         "precio": 120000,
-        "imagen": "/src/assets/img/productos/reloj1.jpeg",
+        "imagen": "/src/assets/img/productos/reloj.jpeg",
         "descripcion": "Reloj de pulsera elegante con correa metálica.",
         "categoria": {
             "id": "accesorios",
@@ -69,7 +69,7 @@
         "id": 7,
         "nombre": "Falda Plisada",
         "precio": 38000,
-        "imagen": "/src/assets/img/productos/falda-plisada1.jpeg",
+        "imagen": "/src/assets/img/productos/falda.jpeg",
         "descripcion": "Falda plisada de longitud media, ideal para un look elegante.",
         "categoria": {
             "id": "ropa",
@@ -80,7 +80,7 @@
         "id": 8,
         "nombre": "Bailarinas",
         "precio": 140000,
-        "imagen": "/src/assets/img/productos/bailarinas-1.jpeg",
+        "imagen": "/src/assets/img/productos/bailarinas.jpeg",
         "descripcion": "Bailarinas cómodas y elegantes, ideales para uso diario.",
         "categoria": {
             "id": "calzado",
@@ -91,7 +91,7 @@
         "id": 9,
         "nombre": "Pañuelo de Seda",
         "precio": 20000,
-        "imagen": "/src/assets/img/productos/panuelo-seda.jpeg",
+        "imagen": "/src/assets/img/productos/panuelo.jpeg",
         "descripcion": "Pañuelo de seda suave y elegante, ideal para cualquier look.",
         "categoria": {
             "id": "accesorios",
@@ -102,7 +102,7 @@
         "id": 10,
         "nombre": "Chaqueta de Cuero",
         "precio": 89000,
-        "imagen": "/src/assets/img/productos/chaqueta-cuero.jpeg",
+        "imagen": "/src/assets/img/productos/campera.jpeg",
         "descripcion": "Chaqueta de cuero auténtico, perfecta para un estilo rebelde.",
         "categoria": {
             "id": "ropa",
@@ -113,7 +113,7 @@
         "id": 11,
         "nombre": "Botines de Cuero",
         "precio": 145000,
-        "imagen": "/src/assets/img/productos/botines-cuero.jpeg",
+        "imagen": "/src/assets/img/productos/botines.jpeg",
         "descripcion": "Botines de cuero elegantes, perfectos para el otoño.",
         "categoria": {
             "id": "calzado",
@@ -124,7 +124,7 @@
         "id": 12,
         "nombre": "Pulsera de Plata",
         "precio": 78000,
-        "imagen": "/src/assets/img/productos/pulsera-plata.jpeg",
+        "imagen": "/src/assets/img/productos/pulsera.jpeg",
         "descripcion": "Pulsera de plata fina con diseño minimalista.",
         "categoria": {
             "id": "accesorios",
