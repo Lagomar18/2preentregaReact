@@ -1,150 +1,169 @@
+/* Estilos globales para resetear márgenes y rellenar */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Definición de esquema de color para el tema */
 :root {
     color-scheme: light dark;
 }
 
+/* Estilos para la barra de navegación en la parte superior */
 .header {
-    background-color: rgb(62, 94, 94);
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
+    background-color: rgb(62, 94, 94); /* Color de fondo */
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+    padding: 1rem; /* Relleno interno */
+    align-items: center; /* Alinear elementos verticalmente */
 }
 
+/* Estilos para el contenedor principal */
 .container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
-    display: flex;
-    gap: 1rem;
+    max-width: 1000px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centrar horizontalmente */
+    padding: 2rem; /* Relleno interno */
+    display: flex; /* Mostrar elementos en línea */
+    gap: 1rem; /* Espacio entre elementos */
 }
 
+/* Estilos para la navegación */
 .nav {
-    display: flex;
+    display: flex; /* Mostrar elementos en línea */
 }
 
+/* Estilos para el menú de navegación */
 .nav-menu {
-    list-style-type: none;
-    display: flex;
-    gap: .5rem;
+    list-style-type: none; /* Quitar viñetas de la lista */
+    display: flex; /* Mostrar elementos en línea */
+    gap: .5rem; /* Espacio entre elementos */
 }
 
+/* Estilos para los enlaces de navegación */
 .nav-link {
-    color: rgb(136, 190, 28);
-    text-decoration: none;
+    color: rgb(136, 190, 28); /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
 }
 
+/* Estilos para el enlace de navegación activo */
 .nav-link.active {
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: bold; /* Texto en negrita */
+    text-decoration: underline; /* Subrayado */
 }
 
+/* Estilos para los títulos */
 h1 {
-    color: rgb(128, 177, 31);
+    color: rgb(128, 177, 31); /* Color del texto */
 }
 
+/* Estilos para el contenedor de productos */
 .products-container {
-    min-height: 30vh;
-    display: grid;
-    place-items: center;
+    min-height: 30vh; /* Altura mínima */
+    display: grid; /* Mostrar como una cuadrícula */
+    place-items: center; /* Alinear contenido al centro */
 }
 
+/* Clase para fondos oscuros */
 .oscuro {
-    background-color: black !important;
+    background-color: black !important; /* Fondo oscuro */
 }
 
-
+/* Estilos para el contenedor de lista de elementos */
 .item-list-container {
-    max-width: 80vh; 
-    margin: 20px; /* Agrega separación superior e inferior */
-    min-height: calc(100vh - 40px); /* Calcula la altura mínima restando el espacio del margen */
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 80vh; /* Ancho máximo */
+    margin: 20px; /* Margen exterior */
+    min-height: calc(100vh - 40px); /* Altura mínima */
+    padding: 20px; /* Relleno interno */
+    box-sizing: border-box; /* El tamaño incluye el relleno */
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo con transparencia */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-bottom: 5rem;    /* Margen inferior  */
 }
 
-
-.producto img {
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: 75%; /* La imagen ocupará todo el alto del contenedor */
-    object-fit: cover; /* La imagen se ajustará para cubrir el contenedor */
-}
-
-
-.background-image {
-    background-image: url('../assets/img/fondo3.jpg');
-    /* background-size: cover; */
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    background-attachment: fixed;
-    /* width: 100%; */
-    /* min-height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.productos-grilla {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-}
-
-
-
+/* Estilos para los productos */
 .producto {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    background-color: rgb(62, 94, 94);
-    border-radius: .5rem;
-    padding: 2rem;
-    color: white; /* Asegura que el texto sea legible sobre el fondo oscuro */
+    display: flex; /* Mostrar elementos en columna */
+    flex-direction: column; /* Columna */
+    width: auto; /* Ancho automático */
+    background-color: rgb(62, 94, 94); /* Color de fondo */
+    border-radius: .5rem; /* Borde redondeado */
+    padding: 2rem; /* Relleno interno */
+    color: white; /* Color del texto */
 }
 
-.grid {
-    display: grid;
+/* Estilos para la grilla de productos */
+.productos-grilla {
+    display: grid; /* Mostrar como una cuadrícula */
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas */
+    gap: 1rem; /* Espacio entre elementos */
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 3.5rem;
-    background-color: rgb(62, 94, 94);
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
+/* Estilos para la imagen del producto */
+.producto img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: 75%; /* Altura del 75% del contenedor */
+    object-fit: cover; /* Ajustar la imagen para cubrir el contenedor */
 }
 
+/* Estilos para la imagen de fondo */
+.background-image {
+    background-image: url('../assets/img/fondo3.jpg'); /* Imagen de fondo */
+    background-position: center; /* Posición centrada */
+    background-attachment: fixed; /* Fondo fijo */
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: center; /* Alinear horizontalmente al centro */
+    align-items: center; /* Alinear verticalmente al centro */
+}
+
+/* Estilos para la tarjeta de detalles del producto */
 .detalle-tarjeta {
-    background-color: rgba(62, 94, 94);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    color: white;
-    width: 500px; /* Ancho fijo de 500px */
-    height: auto; /* Altura fija de 500px */
-    margin: auto; /* Centra horizontalmente el contenedor */
-    margin-top: 50px; /* Espacio superior */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    background-color: rgba(62, 94, 94); /* Color de fondo con transparencia */
+    border-radius: 0.5rem; /* Borde redondeado */
+    padding: 1rem; /* Relleno interno */
+    color: white; /* Color del texto */
+    width: 500px; /* Ancho fijo */
+    height: auto; /* Altura automática */
+    margin: auto; /* Centrar horizontalmente */
+    margin-top: 50px; /* Margen superior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    display: flex; /* Mostrar elementos en columna */
+    flex-direction: column; /* Columna */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    align-items: center; /* Alinear elementos al centro */
 }
 
+/* Estilos para la imagen dentro de la tarjeta de detalles del producto */
 .detalle-tarjeta img {
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: auto; /* La altura de la imagen se ajustará automáticamente */
-    max-height: 400px; /* Altura máxima para la imagen */
-    object-fit: contain; /* La imagen se ajustará para que quepa dentro del contenedor sin distorsionar su relación de aspecto */
-    margin-bottom: 1rem; /* Espacio inferior */
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: auto; /* Altura automática */
+    max-height: 400px; /* Altura máxima */
+    object-fit: contain; /* Ajustar imagen para que quepa dentro sin distorsionar */
+    margin-bottom: 1rem; /* Margen inferior */
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed; /* Posicionamiento fijo para mantener el pie de página en la parte inferior */
+    bottom: 0; /* Fijar el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ancho completo del pie de página */
+    height: 3.5rem; /* Altura del pie de página */
+    background-color: rgb(62, 94, 94); /* Color de fondo */
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+    padding: 1rem; /* Relleno interno */
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+/* Estilos para las redes sociales en el pie de página */
+.redes-sociales img {
+    width: 30px; /* Ancho de las imágenes de redes sociales */
+    margin-right: 10px; /* Margen derecho entre las imágenes */
+}
+
+/* Estilos para los créditos en el pie de página */
+.creditos {
+    font-size: 18px; /* Tamaño de fuente para los créditos */
 }
