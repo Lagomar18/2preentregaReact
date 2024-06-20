@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import data from "../data/productos.json";
+import ItemDetail from './ItemDetail';
 
 export const ItemDetailContainer = () => {
   const { itemId } = useParams();
@@ -12,17 +13,6 @@ export const ItemDetailContainer = () => {
   }, [itemId]);
 
   return (
-      <div className="detalle-tarjeta">
-        {producto ? (
-          <div>
-            <h2>{producto.nombre}</h2>
-            <img src={producto.imagen} alt={producto.nombre} />
-            <p>Precio: ${producto.precio}</p>
-            <p> {producto.descripcion}</p>
-          </div>
-        ) : (
-          "Cargando..."
-        )}
-      </div>
+    producto ? <ItemDetail producto={producto} /> : "Cargando..."
   );
 };
