@@ -167,3 +167,7 @@ footer {
 .creditos {
     font-size: 18px; /* Tamaño de fuente para los créditos */
 }
+
+a{
+    color: rgb(136, 190, 28)
+}

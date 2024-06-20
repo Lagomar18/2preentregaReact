@@ -1,10 +1,12 @@
 import React from 'react'
 
-export const NotFound = () => {
+const NotFound = () => {
   return (
-    <div>   
-      <h1>404</h1>
-      <p>Página no encontrada.</p>
+    <div>
+        <h1>404</h1>
+        <p>Página no encontrada.</p>
     </div>
   )
 }
+
+export default NotFound
