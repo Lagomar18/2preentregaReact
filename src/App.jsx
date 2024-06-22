@@ -1,5 +1,4 @@
 import "./css/main.css"
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./components/header/Header"
 import NotFound from "./components/NotFound"
@@ -8,8 +7,13 @@ import Footer from "./components/Footer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import { CartProvider } from "./context/CartContext";
 import Carrito from "./components/Carrito";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function App() {
+
   return (
     <CartProvider>
       <BrowserRouter>
@@ -21,7 +25,10 @@ function App() {
           <Route path="/carrito" element={<Carrito/>}/>
           <Route path="/*" element={<NotFound/>}/>
         </Routes>
+        <ToastContainer />
+        <sweetAlert />
         <Footer />
+
       </BrowserRouter>
     </CartProvider>
   )
