@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
+
 function App() {
 
   return (
@@ -26,9 +27,7 @@ function App() {
           <Route path="/*" element={<NotFound/>}/>
         </Routes>
         <ToastContainer />
-        <sweetAlert />
         <Footer />
-
       </BrowserRouter>
     </CartProvider>
   )
