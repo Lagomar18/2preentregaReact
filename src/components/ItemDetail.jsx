@@ -6,9 +6,12 @@ export const ItemDetail = ({ producto }) => {
     const { agregarAlCarrito } = useContext(CartContext);
     const [cantidad, setCantidad] = useState(1);
 
+<<<<<<< HEAD
     // Verificar la URL de la imagen
     console.log('URL de la imagen:', producto.imagen);
 
+=======
+>>>>>>> e157e93388cba4f296f31465e794b195546ae6a2
     const handleAgregar = () => {
         const productoConCantidad = { ...producto, cantidad };
         agregarAlCarrito(productoConCantidad);
@@ -28,6 +31,10 @@ export const ItemDetail = ({ producto }) => {
             <h2>{producto.nombre}</h2>
             <img src={producto.imagen} alt={producto.nombre} />
             <p>Precio: ${producto.precio}</p>
+<<<<<<< HEAD
+=======
+            <p>{producto.descripcion}</p>
+>>>>>>> e157e93388cba4f296f31465e794b195546ae6a2
             <label htmlFor="cantidad">Cantidad:</label>
             <select 
                 id="cantidad" 

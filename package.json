@@ -11,14 +11,21 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+<<<<<<< HEAD
     "firebase": "^10.12.2",
+=======
+>>>>>>> e157e93388cba4f296f31465e794b195546ae6a2
     "react": "^18.2.0",
     "react-bootstrap-icons": "^1.11.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "react-toastify": "^10.0.5",
     "sweetalert": "^2.1.2",
+<<<<<<< HEAD
     "sweetalert2": "^11.6.13"
+=======
+    "sweetalert2": "^11.12.0"
+>>>>>>> e157e93388cba4f296f31465e794b195546ae6a2
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
