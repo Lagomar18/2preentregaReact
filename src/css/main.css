@@ -171,3 +171,46 @@ footer {
 a{
     color: rgb(136, 190, 28)
 }
+
+
+.detalle-tarjeta {
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.detalle-tarjeta:hover {
+    transform: scale(1.05);
+}
+
+.detalle-tarjeta img {
+    max-width: 100%;
+    height: auto;
+}
+
+.detalle-tarjeta button {
+    background-color: #0a8110;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.detalle-tarjeta button:hover {
+    background-color: rgb(128, 177, 31);
+}
+
+.detalle-tarjeta select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.detalle-tarjeta label {
+    display: block;
+    margin-top: 10px;
+}
